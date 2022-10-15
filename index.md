@@ -1,15 +1,20 @@
-# 1 INTRODUCTION 111111
+# 1 Animal saver under cars
 
-## 1.1 BACK GROUND
-	Exercising has always been a habit of many people around me. But all of them knows how expensive it can cost us. The average cost of a gym membership is normally around 60$ per month. Additionally, the current pandemic takes away the accessibility of public gyms. Therefore traditional gyms are unable to satisfy many user’s needs.
+## 1.Introduction
 
-Exercising using sand bags as extra weight can be very tiring and useless because it is quite heavy and takes a lot of space. With the fitny, it acts as a smart weight bag using a air bag friction system installed in a knee/arm guard, which allows for light weight and portability.
+### 1.1 background
+
+	In big city, such as Shanghai and Newyork, where is populaiton density is high and crowded, there are also plenty of wild cats and dogs. But there's an issue with is. Since cats and dogs don't know anything about road security, they might cross the road without people noticing it. That could cause injuries and even death of the poor animals. This has happens to us once where we couldn't see the animal and crush into it, causing the animal to be dead. As an animal lover and a inventor, I think there's definatly something I could do with this problem. Maybe I could invent something to save the animal's life, if no, at least decrease the amount of these trajadies.
+
+
+### 1.2 Current approach
+	Now, people aren't really solving the problem of animals on road. Most are discussing how to bury them or even luck. Many people make videos about what if you're driving a care fastly and met a animal, the conclusion is hold tight and bump right into the animal. People doesn't seems to see this as a serious problem. Although there are many news reports everyday, people only gets sad for a few minute about these animals, no action is really taken to solve this.
+
+### 1.3 Objective
+	We've thought about to make the use of animal's strong hearings and smelling, but that wouldn't be a good solution because if there are animals that still want to go on the road, the trajady could still happens. Moreover, sometimes it is not the animal's fault that they want to cross the road, maybe they had to go to the other side of the road for some reason. After some brainstorm, we decide to solve the problem fundamentally, that is, on the cars. Since cars are made out of irons and could run up to 100 k/h, no doubt that animal would be hurt by it. But what will happen if the things thaat crash in to animal is not iron, but something soft? Moreover, what will happen if that something soft could grab the animal and put it somewhere safe? Even if that could not save every life, just saving one more means a great thing.
 
 
 
-## 1.2 Current approach
-	The most popular thing used to add weight on one’s body to assert more force are weight vests, They are physical weights that you have to wear on your body. Most of the time they feel uncomfortable when wearing and it is inconvenient to bring around places. Additionally, resistance bands are another way to allow the further activation of your muscles used through the form of physical resistance, but it can only account for one specific level of force, and when you want to proceed on to a heavier level, you would have to buy another band. 
-	
 # 2 methodology
 ## 2.1 Overview
 	A new system needs to be used to not only allow for the customizability of weight vests when switching out weight block s but also allow for the portability like resistance bands. So I have came up with the airbag pressure system. Using this developed technology, it can be put in to a knee guard or arm guard 
