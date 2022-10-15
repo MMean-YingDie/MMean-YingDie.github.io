@@ -44,7 +44,8 @@ comes out too early, causing many air resistance, which make the car go slow and
 sheep all count as animal and will activate the net. Not only because those animal could be found on street, but because the algorism some times mess things up, and
 consider cats and dogs as other animal. So by this consideration, out code should be more comprehensive.
 
- ### 2.4 Sounds and smells
+
+### 2.4 Sounds and smells
 	Because dogs and cats and other animals have a lot stronger hearings and smellings, they could easily smell or hears things we couldn't. And some of those
 sounds or smells make them uncomfortable, which drives them away. We have a recorder and smeller on our net and is both acitivated when no animal is in the net. And
 that could drive animal away from the road, which also could prevent the crash. Still, the net will be used incase some animal didn't get out of the way. The device
