@@ -9,7 +9,7 @@ with is. Since cats and dogs don't know anything about road security, they might
 the poor animals. This has happens to us once where we couldn't see the animal and crush into it, causing the animal to be dead. As an animal lover and a inventor, I 
 think there's definatly something I could do with this problem. Maybe I could invent something to save the animal's life, if no, at least decrease the amount of these 
 trajadies.
-![](https://github.com/PheromG/pheromg.github.io/blob/master/01f5820053f390a9daed240dbc50f1b.jpg)
+![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/u%3D490135195%2C4184572886%26fm%3D253%26fmt%3Dauto%26app%3D138%26f%3DJPEG.webp)
 
 ### 1.2 Current approach
 	Now, people aren't really solving the problem of animals on road. Most are discussing how to bury them or even luck. Many people make videos about what if
