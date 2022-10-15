@@ -15,48 +15,42 @@
 
 
 
-# 2 methodology
-## 2.1 Overview
-	A new system needs to be used to not only allow for the customizability of weight vests when switching out weight block s but also allow for the portability like resistance bands. So I have came up with the airbag pressure system. Using this developed technology, it can be put in to a knee guard or arm guard 
-## 2.2Hardware design
-	the circular casing that is placed on the side of the knees would act as the axle for the arm/leg connection to turn and with the air pumped inside, the friction of the airbag and the inside surface of the circular casing would increase. Thus it would make it harder to move, therefore requiring the user to use more force on the legs or arms to fold their joints like in many exercises we do everyday.
-	The electronics connection is as shown in the second diagram with the Arduino board in the center and connecting to the battery for the device, the Bluetooth board for the connect not it to the user’s mobile device and the pump and valve for the pumping and locking in of air in the airbag. 
-### 2.2.1 Hardare design
-![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202020-12-29%20at%2010.46.35%20AM.png)
-### 2.2.2 electronic connections
-![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202020-12-29%20at%2010.43.04%20AM.png)
+## 2 Mthodology
+### 2.1 Overview
+	By placing a net in front of the car, the damage can be lower to none. Our product can be divided into 2 parts, software and hardware. The soft ware is used to detect animal, and tells the hardware what to do. It is kind of like an eye and a brain. The hardware is like our hand, it is use to capture animal and what really saves the life of a animal. We also have a part on the harcore which could spread smells and supersonic to drive away the animal. But if the animal didn't the net will capture the animal and turn off smells and sounds.
+	
+### 2.2 ACNet
+	The ACnet is the main part of our product. The net is used to capture animals and protect them. It is also the main part of our product. The net include the actual net and the soft holder. The soft holder could prevent the animal from being harmed when it crash in to the car. The net is what hold the animal and takes it away from the dangerous road.
 
-## 2.3 Processing(Arduino code)
-	The Arduino board will be connected to a bluetooth chip, the battery, the air valve and pump which will be connected to our phones through bluetooth to allow the control of the pumps wirelessly. The phone application would specify the amount of force in kg to adjust in the device. Then it will send the command to the Arduino board to turn on the valve or pump for the specified amount of time, the code is a cycle which will assess either a command for the valve or pump is there and carry it out. It the board receives a command to start pumping, it would move on to see if there was a command for the valve to turn on as well and then it would carry out the command after each part is assessed. The cycle carries on continuously when the device is turned on. 
-### 2.3.1 code flow chart
-![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202020-12-29%20at%2010.44.46%20AM.png)
+### 2.3 Animal detection
+	Animal detection is a critical part on our product. If it fails, the animal can still end up dead. Or if it detect something else as an animal, the net could comes out too early, causing many air resistance, which make the car go slow and lower its aesthetics. In the code, we make teddy bear, dogs, cats, cows, pigs and sheep all count as animal and will activate the net. Not only because those animal could be found on street, but because the algorism some times mess things up, and consider cats and dogs as other animal. So by this consideration, out code should be more comprehensive.
 
- ## 2.3User interface
-	A phone application will be made for the user to control the pressure for their own devices and they can either use the default 2 second pump time to send to the Arduino board or they can customize how long they want their air pump time to be. Wan the user asks for the pump to be on, the valve would automatically be on as well to secure the air inside the bag, this command is sent from the phone so it does not interfere with the arduino code at all.
+ ### 2.4 Sounds and smells
+	Because dogs and cats and other animals have a lot stronger hearings and smellings, they could easily smell or hears things we couldn't. And some of those sounds or smells make them uncomfortable, which drives them away. We have a recorder and smeller on our net and is both acitivated when no animal is in the net. And that could drive animal away from the road, which also could prevent the crash. Still, the net will be used incase some animal didn't get out of the way. The device will close once an animal is captured because we don't want any animals to be uncomfortable.
 
-# 3 Results and discussion	
-The device currently works but with little pressure in reality, it is not able to achieve the goal of having over 5kg of force, more designing in to the component is needed. However, it does work and the design does provide the user with some need of force(average of 0.5 kg checked using a force measurer).
 
-## 3.1 Graph and table 
-### 3.1.1 Graph
-![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202021-02-05%20at%202.30.37%20PM.png)
-### 3.3.2 table
-![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202021-02-05%20at%202.25.36%20PM.png)
+### 2.5 System 
 
-## 3.2 Resulting product
-### 3.2.1 october 2020 perototype
-![](https://github.com/PheromG/pheromg.github.io/blob/master/28b8e916ceacc891419d7c5676dff0c.jpg)
+#### VTK simulation
+	The VTK is a software we used to show our 3D model. It helped us to see our net, and can stimulate the movement of nets, including turn, capture, open, and close.
 
-### 3.2.2 december 2020 prototype
-![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202021-02-05%20at%202.26.41%20PM%201.png)
+#### Hardware
+	For the hardware, we had arduino board, which acts like a brain in human body. All the direction are given to the arduino board and arduino tells the other parts what to do. The parts it control include seering engine; which controls the open and close of net; the camera; the scents and sounds; and most importantly, determine whether it is an animal infront. 
+
+#### Power supply
+	Our power is supplied by batteries, huge ones like used in Tesla, these batteries can supply the system for many hours so even a long distance trip would be enough. The batteries are hide inside the net cover where it is safe ane easy to charge.
+
+#### Software
+	Our software is mainly made out of the animal detection and mixly coding. We first use YOLO algorism to detect animal and then commands the spread of scents and sounds. If it didn't work, accroding to our mixly coding, the nets will open to capture the animal. The software is like the mind we got in our head.
+
+#### User interface
 
 
 
+## 3.RESULTS AND DISCUSSION
 
-
-
-
-
+### 3.1 Simulation Result
+	We first put a model dog infront of the camera, and see if the code detect it. And when it did, VTK also successfully responds by emmiting smells and sounds. And when the code still detects the dog, VTK responds by lower the net and ready to capture the dog while close the sound and smells. After that, when the dog is successfully captured, VTK tells the car to slow down and put the dog aside. More detailes is in this flow chart.
 
 
 
