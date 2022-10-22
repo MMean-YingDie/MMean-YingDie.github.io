@@ -41,7 +41,7 @@ away from the dangerous road.
 comes out too early, causing many air resistance, which make the car go slow and lower its aesthetics. In the code, we make teddy bear, dogs, cats, cows, pigs and
 sheep all count as animal and will activate the net. Not only because those animal could be found on street, but because the algorism some times mess things up, and
 consider cats and dogs as other animal. So by this consideration, out code should be more comprehensive.
-
+![](https://github.com/MMean-YingDie/MMean-YingDie.github.io/blob/main/dog%20crossing%20street%201.PNG)
 
 ### 2.4 Sounds and smells
 	Because dogs and cats and other animals have a lot stronger hearings and smellings, they could easily smell or hears things we couldn't. And some of those
@@ -55,7 +55,7 @@ will close once an animal is captured because we don't want any animals to be un
 #### VTK simulation
 	The VTK is a software we used to show our 3D model. It helped us to see our net, and can stimulate the movement of nets, including turn, capture, open, and
 close.
-
+![](https://github.com/MMean-YingDie/MMean-YingDie.github.io/blob/main/simulation.PNG)
 #### Hardware
 	For the hardware, we had arduino board, which acts like a brain in human body. All the direction are given to the arduino board and arduino tells the other
 parts what to do. The parts it control include seering engine; which controls the open and close of net; the camera; the scents and sounds; and most importantly,
@@ -84,6 +84,8 @@ successfully captured, VTK tells the car to slow down and put the dog aside. Mor
 	We found multiple video clips online with dogs on the street and see if our simulation VTK is working. In the first video, there is a cat that appears for a minute continuously, our VTK have successfully react to the cat and lower the net to capture the dog, the net remain lowers until the cat can no longer be detected by the camera.
 	In the second video, there is multiple dogs that shows up at different times. The first dog appears at 1 minute, the second dog appears at 3 minute, the final dog appears at 4 minute. The VTK react as usual and successfully at the first and second dog, however, in the third dog, probably because the gap between the 2 dogs is too small, it took VTK sometime to react to it, this might cause injure in real life.
 	In the final video, there is only one dog that appears suddenly on highway and only exist for 2 second. The VTK successfully react to it in 2 second. However, on a highway, this reaction time might be too slow to safe the life
+
+![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/u%3D11001331%2C1772941715%26fm%3D253%26fmt%3Dauto%26app%3D138%26f%3DJPEG.webp)
 	
 The application is designed with 2 pages in which the first one allows the user to send default and customized time command to the air pump and the second page is where the user and put in their height and weight for a truly optimum pressure amount.
 ### 3.3.1 1st page
