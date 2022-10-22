@@ -17,12 +17,10 @@ you're driving a care fastly and met a animal, the conclusion is hold tight and 
 Although there are many news reports everyday, people only gets sad for a few minute about these animals, no action is really taken to solve this.
 
 ### 1.3 Objective
-	We've thought about to make the use of animal's strong hearings and smelling, but that wouldn't be a good solution because if there are animals that still want
-to go on the road, the trajady could still happens. Moreover, sometimes it is not the animal's fault that they want to cross the road, maybe they had to go to the
-other side of the road for some reason. After some brainstorm, we decide to solve the problem fundamentally, that is, on the cars. Since cars are made out of irons and
+	After some brainstorm, we decide to solve the problem fundamentally, that is, on the cars. Since cars are made out of irons and
 could run up to 100 k/h, no doubt that animal would be hurt by it. But what will happen if the things thaat crash in to animal is not iron, but something soft?
 Moreover, what will happen if that something soft could grab the animal and put it somewhere safe? Even if that could not save every life, just saving one more means a 
-great thing.
+great thing. Thus, we decide to use YOLO to detect animal and use a soft net infront of the car to capture it, this allows the animal to be seen and capture all atomatically without the need of manuale act.
 
 
 
@@ -82,10 +80,11 @@ and sounds. If it didn't work, accroding to our mixly coding, the nets will open
 And when the code still detects the dog, VTK responds by lower the net and ready to capture the dog while close the sound and smells. After that, when the dog is
 successfully captured, VTK tells the car to slow down and put the dog aside. More detailes is in this flow chart.
 
-
-
-## 3.3 Application page 
- 
+### 3.2 Graph Result
+	We found multiple video clips online with dogs on the street and see if our simulation VTK is working. In the first video, there is a cat that appears for a minute continuously, our VTK have successfully react to the cat and lower the net to capture the dog, the net remain lowers until the cat can no longer be detected by the camera.
+	In the second video, there is multiple dogs that shows up at different times. The first dog appears at 1 minute, the second dog appears at 3 minute, the final dog appears at 4 minute. The VTK react as usual and successfully at the first and second dog, however, in the third dog, probably because the gap between the 2 dogs is too small, it took VTK sometime to react to it, this might cause injure in real life.
+	In the final video, there is only one dog that appears suddenly on highway and only exist for 2 second. The VTK successfully react to it in 2 second. However, on a highway, this reaction time might be too slow to safe the life
+	
 The application is designed with 2 pages in which the first one allows the user to send default and customized time command to the air pump and the second page is where the user and put in their height and weight for a truly optimum pressure amount.
 ### 3.3.1 1st page
 ![](https://github.com/PheromG/pheromg.github.io/blob/master/32f702175dfeca4d6abb34ec4c90701.jpg)
