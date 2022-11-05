@@ -25,6 +25,8 @@ great thing. Thus, we decide to use YOLO to detect animal and use a soft net inf
 
 
 ## 2 Mthodology
+![](https://github.com/MMean-YingDie/MMean-YingDie.github.io/blob/ed91d215b561a1f750ef870d86df218069002487/logic%20map.png)
+
 ### 2.1 Overview
 	By placing a net in front of the car, the damage can be lower to none. Our product can be divided into 2 parts, software and hardware. The soft ware is used to
 detect animal, and tells the hardware what to do. It is kind of like an eye and a brain. The hardware is like our hand, it is use to capture animal and what really
@@ -69,9 +71,9 @@ enough. The batteries are hide inside the net cover where it is safe ane easy to
 	Our software is mainly made out of the animal detection and mixly coding. We first use YOLO algorism to detect animal and then commands the spread of scents
 and sounds. If it didn't work, accroding to our mixly coding, the nets will open to capture the animal. The software is like the mind we got in our head.
 ![](https://github.com/MMean-YingDie/MMean-YingDie.github.io/blob/f33a60cb7e63aee40d7ac1ca791acea4f14a3879/%E7%BB%93%E6%9E%84.PNG)
-#### User interface
 
-
+#### User interface	
+	We also created a switch on the user's phone, connected to the net. Sometimes the camera might misdetect and thus open the net when it should not. This also might cause injury if there's someone infront of the car or cause alot of air resistance. Thus, this switch on the user's phone is useful when something goes wrong.
 
 ## 3.RESULTS AND DISCUSSION
 
@@ -92,17 +94,6 @@ The application is designed with 2 pages in which the first one allows the user 
 ![](https://github.com/PheromG/pheromg.github.io/blob/master/32f702175dfeca4d6abb34ec4c90701.jpg)
 ### 3.3.2 2nd page
 ![](https://github.com/PheromG/pheromg.github.io/blob/master/01f5820053f390a9daed240dbc50f1b.jpg)
-
-
-
-
-
-
- 
-
-
-
-
 
 
 # 4 Conclusion
