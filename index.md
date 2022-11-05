@@ -68,7 +68,7 @@ enough. The batteries are hide inside the net cover where it is safe ane easy to
 #### Software
 	Our software is mainly made out of the animal detection and mixly coding. We first use YOLO algorism to detect animal and then commands the spread of scents
 and sounds. If it didn't work, accroding to our mixly coding, the nets will open to capture the animal. The software is like the mind we got in our head.
-
+![](https://github.com/MMean-YingDie/MMean-YingDie.github.io/blob/f33a60cb7e63aee40d7ac1ca791acea4f14a3879/%E7%BB%93%E6%9E%84.PNG)
 #### User interface
 
 
