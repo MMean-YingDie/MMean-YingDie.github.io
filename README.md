@@ -20,7 +20,7 @@ After some brainstorm, we decide to solve the problem fundamentally, that is, on
 
 
 ## 2 Mthodology
-![](https://github.com/MMean-YingDie/MMean-YingDie.github.io/blob/ed91d215b561a1f750ef870d86df218069002487/logic%20map.png)
+![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/logic%20map.png)
 
 ### 2.1 Overview
 
