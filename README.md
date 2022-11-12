@@ -8,6 +8,7 @@ In big city such as Shanghai and Newyork, where is populaiton density is high an
 Since cats and dogs don't know anything about road security, they might cross the road without people noticing it. That could cause injuries and even death of  the poor animals. This has happens to us once where we couldn't see the animal and crush into it, causing the animal to be dead. As an animal lover and a inventor, I  think there's difinately something I could do with this problem. Maybe I could invent something to save the animal's life, if no, at least decrease the amount of these  trajadies.
 
 ![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/u%3D490135195%2C4184572886%26fm%3D253%26fmt%3Dauto%26app%3D138%26f%3DJPEG.webp)
+This is a picture of a dog that crash into a car in China.
 
 ### 1.2 Current approach
 
@@ -15,12 +16,13 @@ Now, people aren't really solving the problem of animals on road. Most are discu
 
 ### 1.3 Objective
 
-After some brainstorm, we decide to solve the problem fundamentally, that is, on the cars. Since cars are made out of irons and could run up to 100 k/h, no  doubt that animal would be hurt by it. But what will happen if the things thaat crash in to animal is not iron, but something soft? Moreover, what will happen if that  something soft could grab the animal and put it somewhere safe? Even if that could not save every life, just saving one more means a great thing. Thus, we decide to  use YOLO to detect animal and use a soft net infront of the car to capture it, this allows the animal to be seen and capture all atomatically without the need of  manuale act.
+After some brainstorm, we decide to solve the problem fundamentally, that is, on the cars. Since cars are made out of irons and could run up to 100 k/h, no  doubt that  animal would be hurt by it. But what will happen if the things thaat crash in to animal is not iron, but something soft? Moreover, what will happen if that  something soft could grab the animal and put it somewhere safe? Even if that could not save every life, just saving one more means a great thing. Thus, we decide to  use YOLO to detect animal and use a soft net infront of the car to capture it, this allows the animal to be seen and capture all atomatically without the need of  manuale act.
 
 
 
 ## 2 Mthodology
 ![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/logic%20map.png)
+This is a flow chart of how our logic works. It start from reading an image to detect animal, then it reacts to it based on the animal's reaction, and finally get the animal in to safety.
 
 ### 2.1 Overview
 
@@ -34,6 +36,7 @@ The ACnet is the main part of our product. The net is used to capture animals an
 
 Animal detection is a critical part on our product. If it fails, the animal can still end up dead. Or if it detect something else as an animal, the net could  comes out too early, causing many air resistance, which make the car go slow and lower its aesthetics. In the code, we make teddy bear, dogs, cats, cows, pigs and  sheep all count as animal and will activate the net. Not only because those animal could be found on street, but because the algorism some times mess things up, and  consider cats and dogs as other animal. So by this consideration, out code should be more comprehensive.
 ![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/dog%20crossing%20street%201.PNG)
+This is a picture of our Yolo algorithm detecting dog from a video tape.
 
 ### 2.4 Sounds and smells
 
@@ -46,11 +49,14 @@ Because dogs and cats and other animals have a lot stronger hearings and smellin
 
 The VTK is a software we used to show our 3D model. It helped us to see our net, and can stimulate the movement of nets, including turn, capture, open, and  close.
 ![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/simulation.PNG)
+This is a picture of our VTK car and it's net reacting to a dog in a video.
 
 #### Hardware
 
 For the hardware, we had arduino board, which acts like a brain in human body. All the direction are given to the arduino board and arduino tells the other  parts what to do. The parts it control include seering engine; which controls the open and close of net; the camera; the scents and sounds; and most importantly,  determine whether it is an animal infront. 
 ![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/f33a60cb7e63aee40d7ac1ca791acea4f14a3879/%E7%BB%93%E6%9E%84.PNG)
+This is our 3D module I made in 123D, it includes all the hardware and their placement our VTK module also is from this module.
+
 #### Power supply
 
 Our power is supplied by batteries, huge ones like used in Tesla, these batteries can supply the system for many hours so even a long distance trip would be  enough. The batteries are hide inside the net cover where it is safe ane easy to charge.
@@ -76,8 +82,9 @@ In the second video, there is multiple dogs that shows up at different times. Th
 In the final video, there is only one dog that appears suddenly on highway and only exist for 2 second. The VTK successfully react to it in 2 second. However,  on a highway, this reaction time might be too slow to safe the life
 
 ![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/u%3D11001331%2C1772941715%26fm%3D253%26fmt%3Dauto%26app%3D138%26f%3DJPEG.webp)
+This is a picture of one of the video we used to test our net and code.
 	
 
 # 4 Conclusion
 
-In conclusion, this device although may seem useless and can not save animals in all conditions, this is for saving lifes. If an animal got caught up bu cars,  it will be injured or die, certainly. However, with this device, it can decrease the damage to none. Even if it can't save every single animals, saving just one is a  great thing. The overall statistics support our idea and this canw be used to future events and lifes.
+In conclusion, this device although may seem useless and can not save animals in all conditions, this is for saving lifes. If an animal got caught up bu cars,  it will be injured or die, certainly. However, with this device, it can decrease the damage to none. Even if it can't save every single animals, saving just one is a  great thing. The overall statistics support our idea and this canw be used to future events and lifes. However, most of these are just a code or based on theory, if there's a chance, in the future, I would like to make an actual module on a real car and test it, perhaps make this in to a product if it is possible and actually useful.
