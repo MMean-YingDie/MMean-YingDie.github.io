@@ -18,13 +18,14 @@ Now, people aren't really solving the problem of animals on road. Most are discu
 ### 1.3 Objective
 
 After some brainstorm, we decide to solve the problem fundamentally, that is, on the cars. Since cars are made out of irons and could run up to 100 k/h, no  doubt that  animal would be hurt by it. But what will happen if the things thaat crash in to animal is not iron, but something soft? Moreover, what will happen if that  something soft could grab the animal and put it somewhere safe? Even if that could not save every life, just saving one more means a great thing. Thus, we decide to  use YOLO to detect animal and use a soft net infront of the car to capture it, this allows the animal to be seen and capture all atomatically without the need of  manuale act.
+![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/lQLPJxbdmTejMwXNAZDNAZCwr1ZxZWwWvigDbCIf7sCFAA_400_400.png_720x720q90g.jpg)
 
-
+This is an example of a net that could be used as our prototype module
 
 ## 2 Mthodology
 ![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/logic%20map.png)
 
-This is a flow chart of how our logic works. It start from reading an image to detect animal, then it reacts to it based on the animal's reaction, and finally get the animal in to safety.
+This is a flow chart of how our logic works. It start from reading an image to detect animal, it decides whether there is an animal in it. If yes, it starts to release  scent and sounds to drive the animal away. If this didn't work, we will ned to lower the net and capture the animal. When that happens, the system tells the driver to  stop and release the animal.
 
 ### 2.1 Overview
 
