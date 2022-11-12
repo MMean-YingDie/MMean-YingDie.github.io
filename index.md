@@ -4,7 +4,7 @@
 
 ### 1.1 background
 
-In big city,such as Shanghai and Newyork, where is populaiton density is high and crowded, there are also plenty of wild cats and dogs. But there's an issue with is. 
+In big city such as Shanghai and Newyork, where is populaiton density is high and crowded, there are also plenty of wild cats and dogs. But there's an issue with is. 
 Since cats and dogs don't know anything about road security, they might cross the road without people noticing it. That could cause injuries and even death of  the poor animals. This has happens to us once where we couldn't see the animal and crush into it, causing the animal to be dead. As an animal lover and a inventor, I  think there's difinately something I could do with this problem. Maybe I could invent something to save the animal's life, if no, at least decrease the amount of these  trajadies.
 
 ![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/u%3D490135195%2C4184572886%26fm%3D253%26fmt%3Dauto%26app%3D138%26f%3DJPEG.webp)
