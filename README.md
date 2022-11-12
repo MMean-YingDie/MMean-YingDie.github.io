@@ -50,7 +50,7 @@ The VTK is a software we used to show our 3D model. It helped us to see our net,
 #### Hardware
 
 For the hardware, we had arduino board, which acts like a brain in human body. All the direction are given to the arduino board and arduino tells the other  parts what to do. The parts it control include seering engine; which controls the open and close of net; the camera; the scents and sounds; and most importantly,  determine whether it is an animal infront. 
-
+![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/f33a60cb7e63aee40d7ac1ca791acea4f14a3879/%E7%BB%93%E6%9E%84.PNG)
 #### Power supply
 
 Our power is supplied by batteries, huge ones like used in Tesla, these batteries can supply the system for many hours so even a long distance trip would be  enough. The batteries are hide inside the net cover where it is safe ane easy to charge.
@@ -58,7 +58,6 @@ Our power is supplied by batteries, huge ones like used in Tesla, these batterie
 #### Software
 
 Our software is mainly made out of the animal detection and mixly coding. We first use YOLO algorism to detect animal and then commands the spread of scents  and sounds. If it didn't work, accroding to our mixly coding, the nets will open to capture the animal. The software is like the mind we got in our head.
-![](https://github.com/MMean-YingDie/MMean-YingDie.github.io/blob/f33a60cb7e63aee40d7ac1ca791acea4f14a3879/%E7%BB%93%E6%9E%84.PNG)
 
 #### User interface	
 
