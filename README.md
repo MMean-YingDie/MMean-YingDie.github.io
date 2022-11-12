@@ -33,7 +33,7 @@ The ACnet is the main part of our product. The net is used to capture animals an
 ### 2.3 Animal detection
 
 Animal detection is a critical part on our product. If it fails, the animal can still end up dead. Or if it detect something else as an animal, the net could  comes out too early, causing many air resistance, which make the car go slow and lower its aesthetics. In the code, we make teddy bear, dogs, cats, cows, pigs and  sheep all count as animal and will activate the net. Not only because those animal could be found on street, but because the algorism some times mess things up, and  consider cats and dogs as other animal. So by this consideration, out code should be more comprehensive.
-![](https://github.com/MMean-YingDie/MMean-YingDie.github.io/blob/main/dog%20crossing%20street%201.PNG)
+![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/dog%20crossing%20street%201.PNG)
 
 ### 2.4 Sounds and smells
 
