@@ -60,7 +60,7 @@ This is a picture of our VTK car and it's net reacting to a dog in a video.
 #### Hardware
 
 For the hardware, we had arduino board, which acts like a brain in human body. All the direction are given to the arduino board and arduino tells the other  parts what to do. The parts it control include seering engine; which controls the open and close of net; the camera; the scents and sounds; and most importantly,  determine whether it is an animal infront. 
-![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/%E7%BB%93%E6%9E%841.PNG)
+![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/%E7%BB%93%E6%9E%842.png)
 
 This is our 3D module I made in 123D, it includes all the hardware and their placement our VTK module also is from this module.
 
