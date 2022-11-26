@@ -75,6 +75,12 @@ Our software is mainly made out of the animal detection and mixly coding. We fir
 
 We also created a switch on the user's phone, connected to the net. Sometimes the camera might misdetect and thus open the net when it should not. This also  might cause injury if there's someone infront of the car or cause alot of air resistance. Thus, this switch on the user's phone is useful when something goes wrong.
 
+### 2.6 YOLO algorism
+![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/how-yolo-algorithm-works.jpg)
+
+Yolo is caculated by dividing the image into different box, the image is divided into 13*13 box, so the size of rectangle range from 1*1 to 13*13. With an overall  possibility of more than 700, yolo capture features in one specific box and calculate the rest. It will have a possible guess after the features is captures, and the    possibility depends on if the features is clear or not. Although Yolo can make alot of mistakes, it is still a good method to detect which one's is a living organism    and which one's not.
+
+
 ## 3.RESULTS AND DISCUSSION
 
 ### 3.1 Simulation Result
