@@ -59,7 +59,7 @@ This is a picture of our VTK car and it's net reacting to a dog in a video.
 #### Hardware
 
 For the hardware, we had arduino board, which acts like a brain in human body. All the direction are given to the arduino board and arduino tells the other  parts what to do. The parts it control include seering engine; which controls the open and close of net; the camera; the scents and sounds; and most importantly,  determine whether it is an animal infront. 
-![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/f33a60cb7e63aee40d7ac1ca791acea4f14a3879/%E7%BB%93%E6%9E%84.PNG)
+![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/%E7%BB%93%E6%9E%841.PNG)
 
 This is our 3D module I made in 123D, it includes all the hardware and their placement our VTK module also is from this module.
 
@@ -75,8 +75,14 @@ Our software is mainly made out of the animal detection and mixly coding. We fir
 
 We also created a switch on the user's phone, connected to the net. Sometimes the camera might misdetect and thus open the net when it should not. This also  might cause injury if there's someone infront of the car or cause alot of air resistance. Thus, this switch on the user's phone is useful when something goes wrong.
 
+![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/userinterface.PNG)
+
+This is a photo of our webpage module.
+
 ### 2.6 YOLO algorism
 ![](https://raw.githubusercontent.com/MMean-YingDie/MMean-YingDie.github.io/main/how-yolo-algorithm-works.jpg)
+
+This is a picture of the logic of Yolo algorism
 
 Yolo is caculated by dividing the image into different box, the image is divided into 13*13 box, so the size of rectangle range from 1*1 to 13*13. With an overall  possibility of more than 700, yolo capture features in one specific box and calculate the rest. It will have a possible guess after the features is captures, and the    possibility depends on if the features is clear or not. Although Yolo can make alot of mistakes, it is still a good method to detect which one's is a living organism    and which one's not.
 
